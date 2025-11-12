@@ -1,14 +1,14 @@
 html,body{
-    background-color: mediumpurple;
+    background-color: rgb(131, 6, 189);
     height: 100%;
     margin: 0;
     
 }:root {
-    --bg: #0b1020;
-    --card: #0f1724;
-    --accent: #ffcb6b;
-    --danger: #ff6b6b;
-    --muted: #9aa7bf;
+    --bg: #9905f5;
+    --card: #ff009d;
+    --accent: #000dff;
+    --danger: #c66bff;
+    --muted: #be9abf;
     font-family: Inter, system-ui, Arial, sans-serif;
 }
 
@@ -16,7 +16,7 @@ html,
 body {
     height: 100%;
     margin: 0;
-    background: linear-gradient(180deg, var(--bg), #071023);
+    background: linear-gradient(180deg, var(--bg), #0051ff);
     color: #dfe9f3
 }
 
@@ -49,7 +49,7 @@ h1 {
     background: rgba(255, 255, 255, 0.03);
     padding: 14px;
     border-radius: 12px;
-    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.6)
+    box-shadow: 0 6px 30px rgba(255, 0, 0, 0.6)
 }
 
 #gameCanvas {
@@ -57,7 +57,7 @@ h1 {
     width: 100%;
     height: 620px;
     border-radius: 8px;
-    background: linear-gradient(180deg, #071022, #07182a)
+    background: linear-gradient(180deg, #b804ff, #d900ff)
 }
 
 .hud {
@@ -82,7 +82,7 @@ h1 {
 
 .btn {
     background: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.612);
     padding: 6px 10px;
     border-radius: 8px;
     cursor: pointer
